@@ -73,15 +73,14 @@ def pr1():
         st.write(x)
 
     with st.expander("Pandas"):
-        st.write("""
-        Pandas
-            - Creating blank dataframe, with predefined data, with pattern specific data
-            - Slicing and Updating elements,
-            - Shape manipulations
-            - Looping over dataframe.
-            - Reading files in pandas
-            - Use pandas vs list for matrix multiplication of 1000 X 1000 array and
-            evaluate computing performance.
+        st.write("""Pandas
+        - Creating blank dataframe, with predefined data, with pattern specific data
+        - Slicing and Updating elements,
+        - Shape manipulations
+        - Looping over dataframe.
+        - Reading files in pandas
+        - Use pandas vs list for matrix multiplication of 1000 X 1000 array and
+        evaluate computing performance.
         """)
 
     # Creating Empty Frames
